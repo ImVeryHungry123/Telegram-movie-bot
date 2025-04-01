@@ -3,7 +3,7 @@ from telebot.types import InlineKeyboardButton,InlineKeyboardMarkup
 
 import films
 
-bot = telebot.TeleBot("6527769238:AAHT4MXi_-g4jVqukMm5lItPHRtHfIqoHSI")
+bot = telebot.TeleBot("ENTER BOT ID")
 @bot.message_handler(commands=["start"])
 def start(message):
     keyboard = InlineKeyboardMarkup()
